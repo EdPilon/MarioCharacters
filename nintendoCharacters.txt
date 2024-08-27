@@ -1,0 +1,3 @@
+0|Mario|Himself
+1|Luigi|Brother
+0|Koopa|Random Turtle
