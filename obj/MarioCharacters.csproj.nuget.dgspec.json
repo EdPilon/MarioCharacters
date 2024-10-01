@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\eap66\\OneDrive\\Documents\\GitHub\\DotNet\\Assignments\\MarioCharacters\\MarioCharacters.csproj": {}
+    "C:\\Users\\eap66\\Documents\\GitHub\\MarioCharacters\\MarioCharacters.csproj": {}
   },
   "projects": {
-    "C:\\Users\\eap66\\OneDrive\\Documents\\GitHub\\DotNet\\Assignments\\MarioCharacters\\MarioCharacters.csproj": {
+    "C:\\Users\\eap66\\Documents\\GitHub\\MarioCharacters\\MarioCharacters.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\eap66\\OneDrive\\Documents\\GitHub\\DotNet\\Assignments\\MarioCharacters\\MarioCharacters.csproj",
+        "projectUniqueName": "C:\\Users\\eap66\\Documents\\GitHub\\MarioCharacters\\MarioCharacters.csproj",
         "projectName": "MarioCharacters",
-        "projectPath": "C:\\Users\\eap66\\OneDrive\\Documents\\GitHub\\DotNet\\Assignments\\MarioCharacters\\MarioCharacters.csproj",
+        "projectPath": "C:\\Users\\eap66\\Documents\\GitHub\\MarioCharacters\\MarioCharacters.csproj",
         "packagesPath": "C:\\Users\\eap66\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\eap66\\OneDrive\\Documents\\GitHub\\DotNet\\Assignments\\MarioCharacters\\obj\\",
+        "outputPath": "C:\\Users\\eap66\\Documents\\GitHub\\MarioCharacters\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\eap66\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\eap66\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -60,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
