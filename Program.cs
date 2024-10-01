@@ -30,6 +30,7 @@ do
                 character.Relationship = arr[2];
                 // display array data
                 Console.WriteLine("ID: {0}, Name: {1}, Relationship: {2}", arr[0], arr[1], arr[2]);
+                characters.Add(character);
             }
             sr.Close();
         }
