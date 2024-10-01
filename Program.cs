@@ -1,4 +1,6 @@
-﻿string? choice;
+﻿using MarioCharacters;
+
+string? choice;
 string file = "nintendoCharacters.txt";
 do
 {
@@ -8,7 +10,7 @@ do
     Console.WriteLine("Enter any other key to exit.");
     // input response
     choice = Console.ReadLine();
-
+    List<Character> characters = [];
     if (choice == "1")
     {
         // read data from file
@@ -18,9 +20,14 @@ do
             StreamReader sr = new(file);
             while (!sr.EndOfStream)
             {
+                Character character = new();
+                
                 string? line = sr.ReadLine();
                 // convert string to array
                 string[] arr = String.IsNullOrEmpty(line) ? [] : line.Split('|');
+                character.Id = UInt64.Parse(arr[0]);
+                character.Name = arr[1];
+                character.Relationship = arr[2];
                 // display array data
                 Console.WriteLine("ID: {0}, Name: {1}, Relationship: {2}", arr[0], arr[1], arr[2]);
             }
