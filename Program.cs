@@ -25,7 +25,7 @@ do
                 string? line = sr.ReadLine();
                 // convert string to array
                 string[] arr = String.IsNullOrEmpty(line) ? [] : line.Split('|');
-                character.Id = UInt64.Parse(arr[0]);
+                character.Id = arr[0];
                 character.Name = arr[1];
                 character.Relationship = arr[2];
                 // display array data
@@ -45,7 +45,8 @@ do
         StreamWriter sw = new(file, true);
         for (int i = 0; i > -1; i++)
         {
-            string id = i.ToString();
+            Character character = new();
+            character.Id = i.ToString();
             // ask a question
             Console.WriteLine("Enter a new person? (Y/N)?");
             // input the response
@@ -55,12 +56,13 @@ do
             // prompt for course name
             Console.WriteLine("Enter the persons name.");
             // save the course name
-            string? name = Console.ReadLine();
+            character.Name = Console.ReadLine();
             // prompt for course grade
             Console.WriteLine("Enter their relationship with mario.");
             // save the course grade
-            string? relationship = Console.ReadLine();
-            sw.WriteLine("{0}|{1}|{2}", id, name, relationship);
+            character.Relationship = Console.ReadLine();
+            characters.Add(character);
+            //sw.WriteLine("{0}|{1}|{2}", id, name, relationship);
         }
         sw.Close();
     }
